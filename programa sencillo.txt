@@ -1,0 +1,10 @@
+# SOLICITAR AL USUARIO SU NOMBRE Y EDAD
+nombre = "SUSY"
+edad = 25
+
+# CALCULAR EL AÑO EN QUE EL USUARIO CUMPLIRA 80 AÑOS
+año_actual = 2025
+año_80 = año_actual + (80 - edad)
+
+# IMPRIMIR EN PANTALLA EL RESULTADO
+print(f"Hola {"SUSY"}. Cumpliras 80 años en el año{año_80}.")

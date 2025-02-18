@@ -1,0 +1,22 @@
+PI = 3.14159
+GRAVITY = 10.81
+
+# Declaración de variables
+numero_entero = 20
+numero_flotante = 10.10
+cadena_texto = "Hi"
+
+# Cálculos básicos
+suma = numero_entero + numero_flotante
+resta = numero_entero - numero_flotante
+multiplicacion = numero_entero * numero_flotante
+division = numero_entero / numero_flotante
+
+# Imprimir resultados
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
+print("Cadena de texto:", cadena_texto)
+print("Constante PI:", PI)
+print("Constante Gravedad:", GRAVITY)

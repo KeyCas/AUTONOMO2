@@ -1,0 +1,26 @@
+# SOLICITAR NUMEROS A USUARIOS
+numero6 = float(input("Ingrese el primer número: "))
+numero7 = float(input("Ingrese el segundo número: "))
+
+# REALIZAR OPERACIONES ARITMETICAS
+suma = numero6 + numero7
+resta = numero6 - numero7
+multiplicacion = numero6 * numero7
+division = numero6 / numero7
+
+# COMPARAR RESULTADOS
+if suma > multiplicacion:
+    print("La suma es mayor que la multiplicación.")
+else:
+    print("La suma no es mayor que la multiplicación.")
+
+if resta < division:
+    print("La resta es menor que la división.")
+else:
+    print("La resta no es menor que la división.")
+
+# IMPRIMIR RESULTADOS
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
